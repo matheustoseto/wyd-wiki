@@ -1,0 +1,28 @@
+{
+  "name": "wiki-ms-droplist",
+  "version": "1.0.0",
+  "description": "Serviço responsável por prover dados de droplist.",
+  "author": "Matheus Toseto",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/main/index.js",
+    "fix": "standard --fix",
+    "test": "standard && node src/test/index.js",
+    "readme": "npx readme-md-generator -y"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "npm": "~6.13.4",
+    "node": "~12.14.1",
+    "yarn": "~1.21.1"
+  }
+}

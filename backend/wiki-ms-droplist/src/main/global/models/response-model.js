@@ -1,4 +1,4 @@
-class ResponseType {
+class ResponseModel {
   constructor (cdRetorno, dsRetorno, data) {
     this.cd_retorno = cdRetorno
     this.ds_retorno = dsRetorno
@@ -6,4 +6,4 @@ class ResponseType {
   }
 }
 
-module.exports = ResponseType
+module.exports = ResponseModel

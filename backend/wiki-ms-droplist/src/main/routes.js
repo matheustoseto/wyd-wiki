@@ -1,16 +1,20 @@
 const pjson = require('../../package.json')
-const ResponseType = require(__dirname.split('src')[0] + 'src/main/global/models/response-type')
+const ResponseModel = require(__dirname.split('src')[0] + 'src/main/global/models/response-model')
 
-const ItemListController = require('./modules/item/list-controller')
+const ItemController = require('./modules/item/item-controller')
+const LoadController = require('./modules/load/load-controller')
 
 module.exports = function (routes) {
   // default
   routes.get('/version', function (req, res) {
-    res.json(new ResponseType(0, 'Sucesso', pjson.version))
+    res.json(new ResponseModel(0, 'Sucesso', pjson.version))
   })
 
   // ItemController
-  routes.get('/item', ItemListController)
+  routes.get('/item', ItemController.index)
+
+  // LoadController
+  routes.get('/load', LoadController.index)
 
   return routes
 }

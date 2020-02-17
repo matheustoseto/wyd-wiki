@@ -1,8 +1,8 @@
 const pjson = require('../../package.json')
-const ResponseModel = require(__dirname.split('src')[0] + 'src/main/global/models/response-model')
+const ResponseModel = require(__dirname.split('src')[0] + 'src/app/global/models/response')
 
-const ItemController = require('./modules/item/item-controller')
-const LoadController = require('./modules/load/load-controller')
+const ItemController = require('./controllers/item/item-controller')
+const LoadController = require('./controllers/load/load-controller')
 
 module.exports = function (routes) {
   // default

@@ -1,5 +1,5 @@
 const constants = {
-  COLUMNS: 3
+  COLUMNS: 2
 }
 
 export default constants

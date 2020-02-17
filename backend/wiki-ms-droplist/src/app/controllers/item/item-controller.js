@@ -1,6 +1,6 @@
-const ResponseModel = require(__dirname.split('src')[0] + 'src/main/global/models/response-model')
-const DataSchema = require(__dirname.split('src')[0] + 'src/main/global/schema/data-schema')
-const DetailsSchema = require(__dirname.split('src')[0] + 'src/main/global/schema/details-schema')
+const ResponseModel = require(__dirname.split('src')[0] + 'src/app/global/models/response')
+const DataSchema = require(__dirname.split('src')[0] + 'src/app/global/schemas/data-schema')
+const DetailsSchema = require(__dirname.split('src')[0] + 'src/app/global/schemas/details-schema')
 
 module.exports = {
   async index (req, res) {

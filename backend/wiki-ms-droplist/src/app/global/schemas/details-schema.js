@@ -4,4 +4,6 @@ const DetailsSchema = new mongoose.Schema({
   data: Object
 }, { collection: 'details' })
 
-module.exports = mongoose.model('Details', DetailsSchema)
+module.exports = function () {
+  return mongoose.model('Details', DetailsSchema)
+}

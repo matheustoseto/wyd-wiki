@@ -22,7 +22,7 @@ const Routes = createAppContainer(
     Details: {
       screen: Details,
       navigationOptions: {
-        title: 'Details'
+        title: 'Detalhes'
       }
     }
   }, {

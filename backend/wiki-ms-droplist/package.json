@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/main/index.js",
+    "start": "nodemon index.js",
     "fix": "standard --fix",
     "test": "standard && node src/test/index.js",
     "readme": "npx readme-md-generator -y"
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
+    "consign": "^0.1.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.8.9"

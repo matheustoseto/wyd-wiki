@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "WYD - WIKI",
+    "slug": "WYD",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -10,15 +10,15 @@
       "web"
     ],
     "android": {
-      "package": "com.example.myapp"
+      "package": "br.com.luminera.wyd.wiki"
     },
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo_icon_2.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/background.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#dcccc1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

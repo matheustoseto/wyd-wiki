@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
   item: {
     alignItems: 'center',
-    backgroundColor: '#766552',
+    backgroundColor: '#b52421',
     flexGrow: 1,
     marginTop: 4,
     marginRight: 4,
@@ -17,7 +17,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 16,
     textAlign: 'center',
-    textAlignVertical: 'center'
+    textAlignVertical: 'center',
+    textShadowColor: 'rgba(0, 0, 0, 0.85)',
+    textShadowOffset: { width: -1, height: 2 },
+    textShadowRadius: 10
   },
   itemEmpty: {
     backgroundColor: 'transparent'
